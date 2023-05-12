@@ -1,3 +1,5 @@
+# python -m pytest tests/unit/test_operations/test_library_model_variables_filter.py
+
 import os 
 import pandas as pd
 import pytest
@@ -120,13 +122,17 @@ def test_get_model_variables_filter(
         return results
 
     # Open the JSON file
-    ifn = "./dist/sdtm-2-0.json"
-    with open(ifn) as f:
+    # https://github.com/cdisc-org/cdisc-library-src-files/blob/master/cdisc-json/products/data-tabulation/
+    ifn1 = "./dist/sdtm-2-0.json"
+    ifn2 = "./dist/sdtmig-3-4.json"
+    with open(ifn1) as f:
         # Load the JSON data into a Python object
-        data = json.load(f)
-
-    timing_objs = find_objects_with_role(data, 'Timing')
-
+        dat1 = json.load(f)
+    timing1_objs = find_objects_with_role(dat1, 'Timing')
+    with open(ifn2) as f:
+        # Load the JSON data into a Python object
+        dat2 = json.load(f)
+    timing2_objs = find_objects_with_role(dat2, 'Timing')
 
     # Access the data in the object
     # print(data.keys())
@@ -145,7 +151,7 @@ def test_get_model_variables_filter(
     #         ],
     #     }
     # )
-    operation_params.dataframe = data
+    operation_params.dataframe = dat2
     operation_params.domain = "AE"
     operation_params.standard = "sdtmig"
     operation_params.standard_version = "3-4"
@@ -159,9 +165,12 @@ def test_get_model_variables_filter(
     os.environ["g_log_lvl"] = "9"
     os.environ["log_fn"] = "test01.txt"
 
-    if timing_objs is not None: 
-        echo_msg(v_prg,0.0001, timing_objs, 1)
+    if timing1_objs is not None: 
+        echo_msg(v_prg,0.011, timing1_objs, 1)
         return 
+    if timing2_objs is not None:
+        echo_msg(v_prg, 0.012, timing2_objs, 1)
+        return
 
 
 
