@@ -1,0 +1,3639 @@
+(Object Type: <class 'list'>)
+-----------------------------
+test_get_model_variables_filter: 0.000 - 1/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/VISITNUM
+    title: Visit Number
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/VISITNUM
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.VISITNUM
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/VISITNUM
+    title: Visit Number
+    type: SDTM Class Variable
+definition: An assigned numeric identifier that aligns to the chronological order
+  of a clinical encounter.
+examples: 1, 1.1, 503.75
+label: Visit Number
+name: VISITNUM
+notes: Numeric version of VISIT, used for sorting. VISITNUM does not have to be an
+  integer value.
+ordinal: '17'
+role: Timing
+simpleDatatype: Num
+variableCcode: C83101
+test_get_model_variables_filter: 0.000 - 2/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/VISIT
+    title: Visit Name
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/VISIT
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.VISIT
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/VISIT
+    title: Visit Name
+    type: SDTM Class Variable
+definition: The label for a protocol-defined clinical encounter.
+label: Visit Name
+name: VISIT
+ordinal: '18'
+role: Timing
+simpleDatatype: Char
+variableCcode: C171010
+test_get_model_variables_filter: 0.000 - 3/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/VISITDY
+    title: Planned Study Day of Visit
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/VISITDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.VISITDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/VISITDY
+    title: Planned Study Day of Visit
+    type: SDTM Class Variable
+definition: The planned study day of a clinical encounter relative to the sponsor-defined
+  reference start date.
+label: Planned Study Day of Visit
+name: VISITDY
+notes: Should be an integer.
+ordinal: '19'
+role: Timing
+simpleDatatype: Num
+variableCcode: C171011
+test_get_model_variables_filter: 0.000 - 4/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/TAETORD
+    title: Planned Order of Element Within Arm
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/TAETORD
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.TAETORD
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/TAETORD
+    title: Planned Order of Element Within Arm
+    type: SDTM Class Variable
+definition: An assigned numeric identifier that gives the planned order of the element
+  within the trial arm of the study.
+label: Planned Order of Element Within Arm
+name: TAETORD
+notes: See Section 5.1.1.2, Trial Arms.
+ordinal: '20'
+role: Timing
+simpleDatatype: Num
+variableCcode: C83438
+test_get_model_variables_filter: 0.000 - 5/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/EPOCH
+    title: Epoch
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/EPOCH
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.EPOCH
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/EPOCH
+    title: Epoch
+    type: SDTM Class Variable
+definition: A time period defined in the protocol with a study-specific purpose.
+label: Epoch
+name: EPOCH
+notes: The epoch associated with an observation is determined by the start date or
+  start date and time of the observation, or the date/time of collection if start
+  date/time is not collected (see Section 5.1.1.2, Trial Arms).
+ordinal: '21'
+role: Timing
+simpleDatatype: Char
+variableCcode: C71738
+test_get_model_variables_filter: 0.000 - 6/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/RPHASE
+    title: Repro Phase
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/RPHASE
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.RPHASE
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/RPHASE
+    title: Repro Phase
+    type: SDTM Class Variable
+label: Repro Phase
+name: RPHASE
+notes: Reproductive phase with which the reproductive stage of the reproductive path
+  is associated. Defined in Trial Paths domain. The RPHASE variable is Required when
+  any Reproductive Phase Day variable is used.
+ordinal: '22'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 7/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/RPPLDY
+    title: Planned Repro Phase Day of Observation
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/RPPLDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.RPPLDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/RPPLDY
+    title: Planned Repro Phase Day of Observation
+    type: SDTM Class Variable
+definition: The day within the reproductive phase on which the test or observation
+  was scheduled to occur.
+label: Planned Repro Phase Day of Observation
+name: RPPLDY
+notes: Expressed as an integer.
+ordinal: '23'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+variableCcode: C170506
+test_get_model_variables_filter: 0.000 - 8/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/RPPLSTDY
+    title: Planned Repro Phase Day of Obs Start
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/RPPLSTDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.RPPLSTDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/RPPLSTDY
+    title: Planned Repro Phase Day of Obs Start
+    type: SDTM Class Variable
+definition: The day within the reproductive phase on which the test or observation
+  was scheduled to begin.
+label: Planned Repro Phase Day of Obs Start
+name: RPPLSTDY
+notes: Expressed as an integer.
+ordinal: '24'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+variableCcode: C170508
+test_get_model_variables_filter: 0.000 - 9/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/RPPLENDY
+    title: Planned Repro Phase Day of Obs End
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/RPPLENDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.RPPLENDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/RPPLENDY
+    title: Planned Repro Phase Day of Obs End
+    type: SDTM Class Variable
+definition: The day within the reproductive phase on which the test or observation
+  was scheduled to end.
+label: Planned Repro Phase Day of Obs End
+name: RPPLENDY
+notes: Expressed as an integer.
+ordinal: '25'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+variableCcode: C170507
+test_get_model_variables_filter: 0.000 - 10/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--DTC
+    title: Date/Time of Collection
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--DTC
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--DTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--DTC
+    title: Date/Time of Collection
+    type: SDTM Class Variable
+definition: The date or date and time of the assessment or the specimen or data collection
+  from the subject, represented in a standardized character format.
+describedValueDomain: ISO 8601 datetime or interval
+label: Date/Time of Collection
+name: --DTC
+ordinal: '26'
+role: Timing
+simpleDatatype: Char
+variableCcode: C82515
+test_get_model_variables_filter: 0.000 - 11/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--STDTC
+    title: Start Date/Time of Observation
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--STDTC
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--STDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--STDTC
+    title: Start Date/Time of Observation
+    type: SDTM Class Variable
+definition: The start date or date and time of an intervention or event, represented
+  in a standardized character format.
+describedValueDomain: ISO 8601 datetime or interval
+label: Start Date/Time of Observation
+name: --STDTC
+notes: The start date of a Findings class record is stored in the --DTC variable.
+ordinal: '27'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in Findings class domains
+variableCcode: C82517
+test_get_model_variables_filter: 0.000 - 12/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--ENDTC
+    title: End Date/Time of Observation
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--ENDTC
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--ENDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--ENDTC
+    title: End Date/Time of Observation
+    type: SDTM Class Variable
+definition: The end date or date and time of an intervention, event, or finding, represented
+  in a standardized character format.
+describedValueDomain: ISO 8601 datetime or interval
+label: End Date/Time of Observation
+name: --ENDTC
+ordinal: '28'
+role: Timing
+simpleDatatype: Char
+variableCcode: C82516
+test_get_model_variables_filter: 0.000 - 13/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--DY
+    title: Study Day of Visit/Collection/Exam
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--DY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--DY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--DY
+    title: Study Day of Visit/Collection/Exam
+    type: SDTM Class Variable
+definition: The number of days from the sponsor-defined reference start date to the
+  date of collection (--DTC), used in study data tabulation.
+label: Study Day of Visit/Collection/Exam
+name: --DY
+notes: The sponsor-defined reference start date is RFSTDTC in Demographics.
+ordinal: '29'
+role: Timing
+simpleDatatype: Num
+variableCcode: C170993
+test_get_model_variables_filter: 0.000 - 14/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--STDY
+    title: Study Day of Start of Observation
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--STDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--STDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--STDY
+    title: Study Day of Start of Observation
+    type: SDTM Class Variable
+definition: The number of days from the sponsor-defined reference start date to the
+  start of an intervention or event (--STDTC), used for study data tabulation.
+label: Study Day of Start of Observation
+name: --STDY
+notes: The sponsor-defined reference start date is RFSTDTC in Demographics.
+ordinal: '30'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in Findings class domains
+variableCcode: C171005
+test_get_model_variables_filter: 0.000 - 15/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--ENDY
+    title: Study Day of End of Observation
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--ENDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--ENDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--ENDY
+    title: Study Day of End of Observation
+    type: SDTM Class Variable
+definition: The number of days from the sponsor-defined reference start date to the
+  end of an intervention, event, or finding (--ENDTC), used for study data tabulation.
+label: Study Day of End of Observation
+name: --ENDY
+notes: The sponsor-defined reference start date is RFSTDTC in Demographics.
+ordinal: '31'
+role: Timing
+simpleDatatype: Num
+variableCcode: C170995
+test_get_model_variables_filter: 0.000 - 16/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--NOMDY
+    title: Nominal Study Day for Tabulations
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--NOMDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--NOMDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--NOMDY
+    title: Nominal Study Day for Tabulations
+    type: SDTM Class Variable
+definition: The nominal study day, relative to the sponsor-defined reference start
+  date, used by data collection and reporting systems for grouping records for observations
+  that may be scheduled to occur on different days into a single study day (e.g.,
+  for output on a tabulation report).
+label: Nominal Study Day for Tabulations
+name: --NOMDY
+ordinal: '32'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+variableCcode: C170498
+test_get_model_variables_filter: 0.000 - 17/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--NOMLBL
+    title: Label for Nominal Study Day
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--NOMLBL
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--NOMLBL
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--NOMLBL
+    title: Label for Nominal Study Day
+    type: SDTM Class Variable
+definition: The name for a protocol-defined nominal study day.
+label: Label for Nominal Study Day
+name: --NOMLBL
+notes: As presented in the study report.
+ordinal: '33'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+variableCcode: C170499
+test_get_model_variables_filter: 0.000 - 18/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--RPDY
+    title: Actual Repro Phase Day of Observation
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--RPDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--RPDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--RPDY
+    title: Actual Repro Phase Day of Observation
+    type: SDTM Class Variable
+definition: The day within the reproductive phase on which the test or observation
+  occurred.
+label: Actual Repro Phase Day of Observation
+name: --RPDY
+notes: Expressed as an integer.
+ordinal: '34'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+variableCcode: C170504
+test_get_model_variables_filter: 0.000 - 19/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--RPSTDY
+    title: Actual Repro Phase Day of Obs Start
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--RPSTDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--RPSTDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--RPSTDY
+    title: Actual Repro Phase Day of Obs Start
+    type: SDTM Class Variable
+definition: The day within the reproductive phase on which the test or observation
+  began.
+label: Actual Repro Phase Day of Obs Start
+name: --RPSTDY
+notes: Expressed as an integer.
+ordinal: '35'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+variableCcode: C170509
+test_get_model_variables_filter: 0.000 - 20/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--RPENDY
+    title: Actual Repro Phase Day of Obs End
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--RPENDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--RPENDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--RPENDY
+    title: Actual Repro Phase Day of Obs End
+    type: SDTM Class Variable
+definition: The day within the reproductive phase on which the test or observation
+  ended.
+label: Actual Repro Phase Day of Obs End
+name: --RPENDY
+notes: Expressed as an integer.
+ordinal: '36'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+variableCcode: C170505
+test_get_model_variables_filter: 0.000 - 21/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--XDY
+    title: Day of Obs Relative to Exposure
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--XDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--XDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--XDY
+    title: Day of Obs Relative to Exposure
+    type: SDTM Class Variable
+label: Day of Obs Relative to Exposure
+name: --XDY
+notes: The actual study day of an intervention, event, or finding, derived relative
+  to the first exposure to any protocol-specified treatment. Expressed in integer
+  days relative to RFXSTDTC in Demographics.
+ordinal: '37'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 22/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--XSTDY
+    title: Start Day of Obs Relative to Exposure
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--XSTDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--XSTDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--XSTDY
+    title: Start Day of Obs Relative to Exposure
+    type: SDTM Class Variable
+label: Start Day of Obs Relative to Exposure
+name: --XSTDY
+notes: The actual study day of the start of an intervention or event, derived relative
+  to the first exposure to any protocol-specified treatment. Expressed in integer
+  days relative to RFXSTDTC in Demographics.
+ordinal: '38'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in Findings class domains
+test_get_model_variables_filter: 0.000 - 23/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--XENDY
+    title: End Day of Obs Relative to Exposure
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--XENDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--XENDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--XENDY
+    title: End Day of Obs Relative to Exposure
+    type: SDTM Class Variable
+label: End Day of Obs Relative to Exposure
+name: --XENDY
+notes: The actual study day of the end of an intervention, event, or finding, derived
+  relative to the first exposure to any protocol-specified treatment. Expressed in
+  integer days relative to RFXSTDTC in Demographics.
+ordinal: '39'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 24/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--CHDY
+    title: Day of Obs Rel to Challenge Agent
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--CHDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--CHDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--CHDY
+    title: Day of Obs Rel to Challenge Agent
+    type: SDTM Class Variable
+label: Day of Obs Rel to Challenge Agent
+name: --CHDY
+notes: The actual study day of an intervention, event, or finding, derived relative
+  to the first exposure to the challenge agent that induces the disease or condition
+  that the investigational treatment is intended to cure, mitigate, treat, or prevent.
+  Expressed in integer days relative to RFCSTDTC in Demographics.
+ordinal: '40'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 25/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--CHSTDY
+    title: Start Day of Obs Rel to Challenge Agent
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--CHSTDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--CHSTDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--CHSTDY
+    title: Start Day of Obs Rel to Challenge Agent
+    type: SDTM Class Variable
+label: Start Day of Obs Rel to Challenge Agent
+name: --CHSTDY
+notes: The actual study day of the start of an intervention or event derived relative
+  to the first exposure to the challenge agent that induces the disease or condition
+  that the investigational treatment is intended to c ure, mitigate, treat, or prevent.
+  Expressed in integer days relative to RFCSTDTC in Demographics.
+ordinal: '41'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in Findings class domains
+test_get_model_variables_filter: 0.000 - 26/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--CHENDY
+    title: End Day of Obs Rel to Challenge Agent
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--CHENDY
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--CHENDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--CHENDY
+    title: End Day of Obs Rel to Challenge Agent
+    type: SDTM Class Variable
+label: End Day of Obs Rel to Challenge Agent
+name: --CHENDY
+notes: The actual study day of the end of an intervention, event, or finding derived
+  relative to the first exposure to the challenge agent that induces the disease or
+  condition that the investigational treatment is intended to cure, mitigate, treat,
+  or prevent. Expressed in integer days relative to RFCSTDTC in Demographics.
+ordinal: '42'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 27/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--DUR
+    title: Duration
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--DUR
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--DUR
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--DUR
+    title: Collected Duration
+    type: SDTM Class Variable
+definition: The collected length of time during which an observation continues, represented
+  in a standardized character format.
+describedValueDomain: ISO 8601 duration
+label: Collected Duration
+name: --DUR
+notes: Used only if collected on the CRF and not derived.
+ordinal: '43'
+role: Timing
+simpleDatatype: Char
+variableCcode: C170992
+test_get_model_variables_filter: 0.000 - 28/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--TPT
+    title: Planned Time Point Name
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--TPT
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--TPT
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--TPT
+    title: Planned Time Point Name
+    type: SDTM Class Variable
+definition: The description of the time when a protocol-defined activity is planned
+  to occur, used for study data tabulation.
+examples: '"PREDOSE", "1 HOUR POST-DOSE"'
+label: Planned Time Point Name
+name: --TPT
+notes: This may be represented as an elapsed time relative to a fixed reference point
+  (e.g., time since last dose). See --TPTNUM and --TPTREF.
+ordinal: '44'
+role: Timing
+simpleDatatype: Char
+variableCcode: C171029
+test_get_model_variables_filter: 0.000 - 29/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--TPTNUM
+    title: Planned Time Point Number
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--TPTNUM
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--TPTNUM
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--TPTNUM
+    title: Planned Time Point Number
+    type: SDTM Class Variable
+definition: The numeric identifier of when an observation is planned to occur.
+label: Planned Time Point Number
+name: --TPTNUM
+notes: Used in sorting.
+ordinal: '45'
+role: Timing
+simpleDatatype: Num
+variableCcode: C82545
+test_get_model_variables_filter: 0.000 - 30/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--ELTM
+    title: Planned Elapsed Time from Time Point Ref
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--ELTM
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--ELTM
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--ELTM
+    title: Planned Elapsed Time from Time Point Ref
+    type: SDTM Class Variable
+definition: The interval of time between a planned time point and a fixed reference
+  point, represented in a standardized character format.
+describedValueDomain: ISO 8601 duration
+label: Planned Elapsed Time from Time Point Ref
+name: --ELTM
+notes: The fixed reference point is in --TPTREF. This variable is useful where there
+  are repetitive measures. Not a clock time or a date/time variable, but an interval.
+ordinal: '46'
+role: Timing
+simpleDatatype: Char
+variableCcode: C170994
+test_get_model_variables_filter: 0.000 - 31/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--TPTREF
+    title: Time Point Reference
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--TPTREF
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--TPTREF
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--TPTREF
+    title: Time Point Reference
+    type: SDTM Class Variable
+definition: The description of a time point that acts as a fixed reference for a series
+  of planned time points, used for study data tabulation.
+examples: '"PREVIOUS DOSE", "PREVIOUS MEAL"'
+label: Time Point Reference
+name: --TPTREF
+notes: Description of the fixed reference point referred to by --ELTM, --TPTNUM, --TPT,
+  --STINT, and --ENINT.
+ordinal: '47'
+role: Timing
+simpleDatatype: Char
+variableCcode: C171030
+test_get_model_variables_filter: 0.000 - 32/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--RFTDTC
+    title: Date/Time of Reference Time Point
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--RFTDTC
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--RFTDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--RFTDTC
+    title: Date/Time of Reference Time Point
+    type: SDTM Class Variable
+definition: The actual date or date and time of a time point that acts as a fixed
+  reference for a series of planned time points, represented in a standardized character
+  format.
+describedValueDomain: ISO 8601 datetime or interval
+label: Date/Time of Reference Time Point
+name: --RFTDTC
+notes: The fixed reference point is in --TPTREF.
+ordinal: '48'
+role: Timing
+simpleDatatype: Char
+variableCcode: C82518
+test_get_model_variables_filter: 0.000 - 33/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--STRF
+    title: Start Relative to Reference Period
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--STRF
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--STRF
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--STRF
+    title: Start Relative to Reference Period
+    type: SDTM Class Variable
+definition: The characterization of the start of an observation relative to the study
+  reference period.
+label: Start Relative to Reference Period
+name: --STRF
+notes: The sponsor-defined reference period is a continuous period of time defined
+  by a discrete starting point and a discrete ending point represented by RFSTDTC
+  and RFENDTC in Demographics.
+ordinal: '49'
+role: Timing
+simpleDatatype: Char
+variableCcode: C82559
+test_get_model_variables_filter: 0.000 - 34/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--ENRF
+    title: End Relative to Reference Period
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--ENRF
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--ENRF
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--ENRF
+    title: End Relative to Reference Period
+    type: SDTM Class Variable
+definition: The characterization of the end of an observation relative to the study
+  reference period.
+label: End Relative to Reference Period
+name: --ENRF
+notes: The sponsor-defined reference period is a continuous period of time defined
+  by a discrete starting point and a discrete ending point represented by RFSTDTC
+  and RFENDTC in Demographics.
+ordinal: '50'
+role: Timing
+simpleDatatype: Char
+variableCcode: C82557
+test_get_model_variables_filter: 0.000 - 35/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--EVLINT
+    title: Evaluation Interval
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--EVLINT
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--EVLINT
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--EVLINT
+    title: Evaluation Interval
+    type: SDTM Class Variable
+definition: The planned time interval for which an observation is assessed, represented
+  in a standardized character format.
+describedValueDomain: ISO 8601 duration or interval
+examples: -P2M to represent a period of the past 2 months as the evaluation interval
+  for a question from a questionnaire.
+label: Evaluation Interval
+name: --EVLINT
+notes: Usually used with --DTC to describe an interval of this duration that ended
+  at the time represented in --DTC.
+ordinal: '51'
+role: Timing
+simpleDatatype: Char
+variableCcode: C82534
+test_get_model_variables_filter: 0.000 - 36/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--EVINTX
+    title: Evaluation Interval Text
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--EVINTX
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--EVINTX
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--EVINTX
+    title: Evaluation Interval Text
+    type: SDTM Class Variable
+definition: A textual description of the planned time interval for which an observation
+  is assessed, where the interval is not able to be represented in a standardized
+  character format.
+examples: '"LIFETIME", "LAST NIGHT", "RECENTLY", "OVER THE LAST FEW WEEKS"'
+label: Evaluation Interval Text
+name: --EVINTX
+notes: A value that cannot be represented in ISO 8601 format.
+ordinal: '52'
+role: Timing
+simpleDatatype: Char
+variableCcode: C117044
+test_get_model_variables_filter: 0.000 - 37/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--STRTPT
+    title: Start Relative to Reference Time Point
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--STRTPT
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--STRTPT
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--STRTPT
+    title: Start Relative to Reference Time Point
+    type: SDTM Class Variable
+definition: The characterization of the start of an observation relative to a reference
+  time point.
+label: Start Relative to Reference Time Point
+name: --STRTPT
+notes: The sponsor-defined reference time point is in --STTPT.
+ordinal: '53'
+role: Timing
+simpleDatatype: Char
+variableCcode: C82560
+test_get_model_variables_filter: 0.000 - 38/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--STTPT
+    title: Start Reference Time Point
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--STTPT
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--STTPT
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--STTPT
+    title: Start Reference Time Point
+    type: SDTM Class Variable
+definition: The description or date and/or time of a time point that acts as a fixed
+  reference for characterizing the start of an observation.
+examples: '"2003-12-15", "VISIT 1"'
+label: Start Reference Time Point
+name: --STTPT
+notes: This is the sponsor-defined reference point referred to by --STRTPT.
+ordinal: '54'
+role: Timing
+simpleDatatype: Char
+variableCcode: C82575
+test_get_model_variables_filter: 0.000 - 39/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--ENRTPT
+    title: End Relative to Reference Time Point
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--ENRTPT
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--ENRTPT
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--ENRTPT
+    title: End Relative to Reference Time Point
+    type: SDTM Class Variable
+definition: The characterization of the end of an observation relative to a reference
+  time point.
+label: End Relative to Reference Time Point
+name: --ENRTPT
+notes: The sponsor-defined reference time point is in --ENTPT.
+ordinal: '55'
+role: Timing
+simpleDatatype: Char
+variableCcode: C82558
+test_get_model_variables_filter: 0.000 - 40/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--ENTPT
+    title: End Reference Time Point
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--ENTPT
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--ENTPT
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--ENTPT
+    title: End Reference Time Point
+    type: SDTM Class Variable
+definition: The description or date and/or time of a time point that acts as a fixed
+  reference for characterizing the end of an observation.
+examples: '"2003-12-25", "VISIT 2"'
+label: End Reference Time Point
+name: --ENTPT
+notes: This is the sponsor-defined reference point referred to by --ENRTPT.
+ordinal: '56'
+role: Timing
+simpleDatatype: Char
+variableCcode: C82574
+test_get_model_variables_filter: 0.000 - 41/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/MIDS
+    title: Disease Milestone Instance Name
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/MIDS
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.MIDS
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/MIDS
+    title: Disease Milestone Instance Name
+    type: SDTM Class Variable
+label: Disease Milestone Instance Name
+name: MIDS
+notes: The name of a specific instance of a Disease Milestone Type (MIDSTYPE) described
+  in the Trial Disease Milestones dataset (see Section 5.1.4.3, Trial Disease Milestones).
+  This should be unique within a subject. Used only in conjunction with RELMIDS and
+  MIDSDTC.
+ordinal: '57'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 42/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/RELMIDS
+    title: Temporal Relation to Milestone Instance
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/RELMIDS
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.RELMIDS
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/RELMIDS
+    title: Temporal Relation to Milestone Instance
+    type: SDTM Class Variable
+examples: '"IMMEDIATELY BEFORE", "AT TIME OF", "AFTER"'
+label: Temporal Relation to Milestone Instance
+name: RELMIDS
+notes: The temporal relationship of the observation to the Disease Milestone Instance
+  Name in MIDS.
+ordinal: '58'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 43/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/MIDSDTC
+    title: Disease Milestone Instance Date/Time
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/MIDSDTC
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.MIDSDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/MIDSDTC
+    title: Disease Milestone Instance Date/Time
+    type: SDTM Class Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: Disease Milestone Instance Date/Time
+name: MIDSDTC
+notes: The start date/time of the Disease Milestone Instance Name in MIDS.
+ordinal: '59'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 44/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--STINT
+    title: Planned Start of Assessment Interval
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--STINT
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--STINT
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--STINT
+    title: Planned Start of Assessment Interval
+    type: SDTM Class Variable
+definition: The start of a planned assessment interval relative to a reference time
+  point, represented in a standardized character format.
+describedValueDomain: ISO 8601 duration
+label: Planned Start of Assessment Interval
+name: --STINT
+notes: The reference time point is in --TPTREF. As this variable describes planned
+  timing of an assessment, caution should be exercised when using outside of the Findings
+  class of domains. In an Events or Interventions domain, it may refer to the interval
+  over which --OCCUR is assessed.
+ordinal: '60'
+role: Timing
+simpleDatatype: Char
+variableCcode: C117061
+test_get_model_variables_filter: 0.000 - 45/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--ENINT
+    title: Planned End of Assessment Interval
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--ENINT
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--ENINT
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--ENINT
+    title: Planned End of Assessment Interval
+    type: SDTM Class Variable
+definition: The end of a planned assessment interval relative to a reference time
+  point, represented in a standardized character format.
+describedValueDomain: ISO 8601 duration
+label: Planned End of Assessment Interval
+name: --ENINT
+notes: The reference time point is in --TPTREF. As this variable describes planned
+  timing of an assessment, caution should be exercised when using outside of the Findings
+  class of domains. In an Events or Interventions domain, it may refer to the interval
+  over which --OCCUR is assessed.
+ordinal: '61'
+role: Timing
+simpleDatatype: Char
+variableCcode: C117042
+test_get_model_variables_filter: 0.000 - 46/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/classes/GeneralObservations/variables/--DETECT
+    title: Time in Days to Detection
+    type: Class Variable
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--DETECT
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--DETECT
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--DETECT
+    title: Time in Days to Detection
+    type: SDTM Class Variable
+definition: The number of days from the start of dosing to the earliest detection
+  of a condition or pathogen.
+label: Time in Days to Detection
+name: --DETECT
+ordinal: '62'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+variableCcode: C117041
+test_get_model_variables_filter: 0.000 - 47/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--PTFL
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--PTFL
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--PTFL
+    title: Point in Time Flag
+    type: SDTM Class Variable
+label: Point in Time Flag
+name: --PTFL
+notes: An indication that the specimen was collected at a single point in time. The
+  value is "Y" or null.
+ordinal: '63'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: 'Only in Findings class specimen-based domains: BS, CP, GF, IS,
+  LB, MB, MS, MI, PC, PP'
+test_get_model_variables_filter: 0.000 - 48/120:
+_links:
+  parentClass:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations
+    title: General Observations
+    type: Class
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  rootItem:
+    href: /mdr/root/sdtm/classes/GeneralObservations/variables/--PDUR
+    title: Version-agnostic anchor resource for SDTM variable GeneralObservations.--PDUR
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/classes/GeneralObservations/variables/--PDUR
+    title: Planned Duration
+    type: SDTM Class Variable
+describedValueDomain: ISO 8601 duration
+label: Planned Duration
+name: --PDUR
+notes: Planned duration of a finding. For a sample-based finding, this could apply
+  to the planned duration of specimen collection.
+ordinal: '64'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: 'Only in Findings class specimen-based domains: BS, CP, GF, IS,
+  LB, MB, MS, MI, PC, PP'
+test_get_model_variables_filter: 0.000 - 49/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/DM
+    title: Demographics
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/DM/variables/DMDTC
+    title: Date/Time of Collection
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/DM/variables/DMDTC
+    title: Version-agnostic anchor resource for SDTM variable DM.DMDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/DM/variables/DMDTC
+    title: Date/Time of Collection
+    type: SDTM Dataset Variable
+definition: The date or date and time of demographic data collection, represented
+  in a standardized character format.
+describedValueDomain: ISO 8601 datetime or interval
+label: Date/Time of Collection
+name: DMDTC
+ordinal: '37'
+role: Timing
+simpleDatatype: Char
+variableCcode: C83243
+test_get_model_variables_filter: 0.000 - 50/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/DM
+    title: Demographics
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/DM/variables/DMDY
+    title: Study Day of Collection
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/DM/variables/DMDY
+    title: Version-agnostic anchor resource for SDTM variable DM.DMDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/DM/variables/DMDY
+    title: Study Day of Collection
+    type: SDTM Dataset Variable
+definition: The actual study day of demographic data collection derived relative to
+  the sponsor-defined reference start date.
+label: Study Day of Collection
+name: DMDY
+notes: The sponsor-defined reference start date is RFSTDTC.
+ordinal: '38'
+role: Timing
+simpleDatatype: Num
+variableCcode: C83244
+test_get_model_variables_filter: 0.000 - 51/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/CO
+    title: Comments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/CO/variables/CODTC
+    title: Date/Time of Comment
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/CO/variables/CODTC
+    title: Version-agnostic anchor resource for SDTM variable CO.CODTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/CO/variables/CODTC
+    title: Date/Time of Comment
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: Date/Time of Comment
+name: CODTC
+notes: Date or date and time of comment on dedicated comment form, if collected. Should
+  be null if this is a child record of another domain or if comment date was not collected.
+ordinal: '14'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 52/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/CO
+    title: Comments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/CO/variables/CODY
+    title: Study Day of Comment
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/CO/variables/CODY
+    title: Version-agnostic anchor resource for SDTM variable CO.CODY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/CO/variables/CODY
+    title: Study Day of Comment
+    type: SDTM Dataset Variable
+label: Study Day of Comment
+name: CODY
+notes: Actual study day of the comment, in integer days. The algorithm for calculations
+  must be relative to the sponsor-defined RFSTDTC variable in the Demographics (DM)
+  domain.
+ordinal: '15'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 53/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SE/variables/TAETORD
+    title: Planned Order of Element within Arm
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/TAETORD
+    title: Version-agnostic anchor resource for SDTM variable SE.TAETORD
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/TAETORD
+    title: Planned Order of Element within Arm
+    type: SDTM Dataset Variable
+definition: An assigned numeric identifier that gives the planned order of the element
+  within the trial arm of the study.
+label: Planned Order of Element within Arm
+name: TAETORD
+notes: Value for the element within the subject's assigned arm.
+ordinal: '7'
+role: Timing
+simpleDatatype: Num
+variableCcode: C83438
+test_get_model_variables_filter: 0.000 - 54/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SE/variables/EPOCH
+    title: Epoch
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/EPOCH
+    title: Version-agnostic anchor resource for SDTM variable SE.EPOCH
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/EPOCH
+    title: Epoch
+    type: SDTM Dataset Variable
+definition: A time period defined in the protocol with a study-specific purpose.
+label: Epoch
+name: EPOCH
+notes: Value for the element within the subject's assigned arm.
+ordinal: '8'
+role: Timing
+simpleDatatype: Char
+variableCcode: C71738
+test_get_model_variables_filter: 0.000 - 55/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SE/variables/SESTDTC
+    title: Start Date/Time of Element
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/SESTDTC
+    title: Version-agnostic anchor resource for SDTM variable SE.SESTDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/SESTDTC
+    title: Start Date/Time of Element
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: Start Date/Time of Element
+name: SESTDTC
+notes: Start date or start date and time for an element for each subject.
+ordinal: '9'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 56/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SE/variables/SEENDTC
+    title: End Date/Time of Element
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/SEENDTC
+    title: Version-agnostic anchor resource for SDTM variable SE.SEENDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/SEENDTC
+    title: End Date/Time of Element
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: End Date/Time of Element
+name: SEENDTC
+notes: End date/time of an element for each subject.
+ordinal: '10'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 57/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/SESTDY
+    title: Version-agnostic anchor resource for SDTM variable SE.SESTDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/SESTDY
+    title: Study Day of Start of Element
+    type: SDTM Dataset Variable
+label: Study Day of Start of Element
+name: SESTDY
+notes: Study day of start of element relative to the sponsor-defined RFSTDTC.
+ordinal: '11'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 58/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/SEENDY
+    title: Version-agnostic anchor resource for SDTM variable SE.SEENDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/SEENDY
+    title: Study Day of End of Element
+    type: SDTM Dataset Variable
+label: Study Day of End of Element
+name: SEENDY
+notes: Study day of end of element relative to the sponsor-defined RFSTDTC. \n
+ordinal: '12'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 59/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SJ
+    title: Subject Repro Stages
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SJ/variables/SJSTDTC
+    title: Start Date/Time of Repro Stage
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SJ/variables/SJSTDTC
+    title: Version-agnostic anchor resource for SDTM variable SJ.SJSTDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SJ/variables/SJSTDTC
+    title: Start Date/Time of Repro Stage
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: Start Date/Time of Repro Stage
+name: SJSTDTC
+notes: Start date or start date and time for a Repro Stage for each subject.
+ordinal: '7'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 60/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SJ
+    title: Subject Repro Stages
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SJ/variables/SJENDTC
+    title: End Date/Time of Repro Stage
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SJ/variables/SJENDTC
+    title: Version-agnostic anchor resource for SDTM variable SJ.SJENDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SJ/variables/SJENDTC
+    title: End Date/Time of Repro Stage
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: End Date/Time of Repro Stage
+name: SJENDTC
+notes: End date/time for a Repro Stage for each subject.
+ordinal: '8'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 61/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SJ
+    title: Subject Repro Stages
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SJ/variables/RPHASE
+    title: Repro Phase
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SJ/variables/RPHASE
+    title: Version-agnostic anchor resource for SDTM variable SJ.RPHASE
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SJ/variables/RPHASE
+    title: Repro Phase
+    type: SDTM Dataset Variable
+label: Repro Phase
+name: RPHASE
+notes: Name of the reproductive phase with which this Repro Stage of the Repro Path
+  is associated.
+ordinal: '9'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 62/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SV
+    title: Subject Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SV/variables/VISITDY
+    title: Planned Study Day of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SV/variables/VISITDY
+    title: Version-agnostic anchor resource for SDTM variable SV.VISITDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SV/variables/VISITDY
+    title: Planned Study Day of Visit
+    type: SDTM Dataset Variable
+definition: The planned study day of a clinical encounter relative to the sponsor-defined
+  reference start date.
+label: Planned Study Day of Visit
+name: VISITDY
+notes: The reference start date is RFSTDTC in Demographics.
+ordinal: '11'
+role: Timing
+simpleDatatype: Num
+variableCcode: C171011
+test_get_model_variables_filter: 0.000 - 63/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SV
+    title: Subject Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SV/variables/SVSTDTC
+    title: Start Date/Time of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SV/variables/SVSTDTC
+    title: Version-agnostic anchor resource for SDTM variable SV.SVSTDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SV/variables/SVSTDTC
+    title: Start Date/Time of Visit
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: Start Date/Time of Visit
+name: SVSTDTC
+notes: Start date or start date and time for a subject's visit.
+ordinal: '12'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 64/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SV
+    title: Subject Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SV/variables/SVENDTC
+    title: End Date/Time of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SV/variables/SVENDTC
+    title: Version-agnostic anchor resource for SDTM variable SV.SVENDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SV/variables/SVENDTC
+    title: End Date/Time of Visit
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: End Date/Time of Visit
+name: SVENDTC
+notes: End date/time of a subject's visit.
+ordinal: '13'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 65/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SV
+    title: Subject Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SV/variables/SVSTDY
+    title: Study Day of Start of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SV/variables/SVSTDY
+    title: Version-agnostic anchor resource for SDTM variable SV.SVSTDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SV/variables/SVSTDY
+    title: Study Day of Start of Visit
+    type: SDTM Dataset Variable
+label: Study Day of Start of Visit
+name: SVSTDY
+notes: Study day of start of visit relative to the sponsor-defined RFSTDTC.
+ordinal: '14'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 66/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SV
+    title: Subject Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SV/variables/SVENDY
+    title: Study Day of End of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SV/variables/SVENDY
+    title: Version-agnostic anchor resource for SDTM variable SV.SVENDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SV/variables/SVENDY
+    title: Study Day of End of Visit
+    type: SDTM Dataset Variable
+label: Study Day of End of Visit
+name: SVENDY
+notes: Study day of end of visit relative to the sponsor-defined RFSTDTC.
+ordinal: '15'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 67/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SM
+    title: Subject Disease Milestones
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SM/variables/SMSTDTC
+    title: Start Date/Time of Milestone
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SM/variables/SMSTDTC
+    title: Version-agnostic anchor resource for SDTM variable SM.SMSTDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SM/variables/SMSTDTC
+    title: Start Date/Time of Milestone
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: Start Date/Time of Milestone
+name: SMSTDTC
+notes: Start date or start date and time of milestone instance (if milestone is an
+  intervention or event), or date of milestone if the milestone is a finding.
+ordinal: '7'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 68/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SM
+    title: Subject Disease Milestones
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SM/variables/SMENDTC
+    title: End Date/Time of Milestone
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SM/variables/SMENDTC
+    title: Version-agnostic anchor resource for SDTM variable SM.SMENDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SM/variables/SMENDTC
+    title: End Date/Time of Milestone
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: End Date/Time of Milestone
+name: SMENDTC
+notes: End date/time of disease milestone Instance.
+ordinal: '8'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 69/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SM
+    title: Subject Disease Milestones
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SM/variables/SMSTDY
+    title: Study Day of Start of Milestone
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SM/variables/SMSTDY
+    title: Version-agnostic anchor resource for SDTM variable SM.SMSTDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SM/variables/SMSTDY
+    title: Study Day of Start of Milestone
+    type: SDTM Dataset Variable
+label: Study Day of Start of Milestone
+name: SMSTDY
+notes: Study day of start of disease milestone instance, relative to the sponsor-defined
+  RFSTDTC.
+ordinal: '9'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 70/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SM
+    title: Subject Disease Milestones
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SM/variables/SMENDY
+    title: Study Day of End of Milestone
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SM/variables/SMENDY
+    title: Version-agnostic anchor resource for SDTM variable SM.SMENDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SM/variables/SMENDY
+    title: Study Day of End of Milestone
+    type: SDTM Dataset Variable
+label: Study Day of End of Milestone
+name: SMENDY
+notes: Study day of end of disease milestone instance, relative to the sponsor-defined
+  RFSTDTC.
+ordinal: '10'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 71/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TE
+    title: Trial Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TE/variables/TEDUR
+    title: Planned Duration of Element
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TE/variables/TEDUR
+    title: Version-agnostic anchor resource for SDTM variable TE.TEDUR
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TE/variables/TEDUR
+    title: Planned Duration of Element
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Planned Duration of Element
+name: TEDUR
+notes: Used when the rule for ending the element is applied after a fixed duration.
+ordinal: '7'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 72/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TA
+    title: Trial Arms
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TA/variables/TAETORD
+    title: Planned Order of Element within Arm
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TA/variables/TAETORD
+    title: Version-agnostic anchor resource for SDTM variable TA.TAETORD
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TA/variables/TAETORD
+    title: Planned Order of Element within Arm
+    type: SDTM Dataset Variable
+definition: An assigned numeric identifier that gives the planned order of the element
+  within the trial arm of the study.
+label: Planned Order of Element within Arm
+name: TAETORD
+ordinal: '5'
+role: Timing
+simpleDatatype: Num
+variableCcode: C83438
+test_get_model_variables_filter: 0.000 - 73/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TA
+    title: Trial Arms
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TA/variables/EPOCH
+    title: Epoch
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TA/variables/EPOCH
+    title: Version-agnostic anchor resource for SDTM variable TA.EPOCH
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TA/variables/EPOCH
+    title: Epoch
+    type: SDTM Dataset Variable
+definition: A time period defined in the protocol with a study-specific purpose.
+label: Epoch
+name: EPOCH
+notes: The epoch associated with the value in ELEMENT and the value in ARMCD.
+ordinal: '10'
+role: Timing
+simpleDatatype: Char
+variableCcode: C71738
+test_get_model_variables_filter: 0.000 - 74/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TT
+    title: Trial Repro Stages
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TT/variables/TTDUR
+    title: Planned Duration of Repro Stage
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TT/variables/TTDUR
+    title: Version-agnostic anchor resource for SDTM variable TT.TTDUR
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TT/variables/TTDUR
+    title: Planned Duration of Repro Stage
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Planned Duration of Repro Stage
+name: TTDUR
+notes: Used when the rule for ending the repro stage is applied after a fixed duration.
+ordinal: '7'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 75/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TP
+    title: Trial Repro Paths
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TP/variables/TPSTGORD
+    title: Order of Repro Stage within Repro Path
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TP/variables/TPSTGORD
+    title: Version-agnostic anchor resource for SDTM variable TP.TPSTGORD
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TP/variables/TPSTGORD
+    title: Order of Repro Stage within Repro Path
+    type: SDTM Dataset Variable
+label: Order of Repro Stage within Repro Path
+name: TPSTGORD
+notes: Number that gives the planned order of the repro stage within the repro path.
+ordinal: '5'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 76/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TP
+    title: Trial Repro Paths
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TP/variables/RPHASE
+    title: Repro Phase
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TP/variables/RPHASE
+    title: Version-agnostic anchor resource for SDTM variable TP.RPHASE
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TP/variables/RPHASE
+    title: Repro Phase
+    type: SDTM Dataset Variable
+label: Repro Phase
+name: RPHASE
+notes: Name of the reproductive phase with which this repro stage of the repro path
+  is associated.
+ordinal: '9'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 77/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TP
+    title: Trial Repro Paths
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TP/variables/RPRFDY
+    title: Repro Phase Start Reference Day
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TP/variables/RPRFDY
+    title: Version-agnostic anchor resource for SDTM variable TP.RPRFDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TP/variables/RPRFDY
+    title: Repro Phase Start Reference Day
+    type: SDTM Dataset Variable
+label: Repro Phase Start Reference Day
+name: RPRFDY
+notes: Sponsor protocol-defined first day of repro phase. Should be zero or 1.
+ordinal: '10'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 78/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TV
+    title: Trial Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TV/variables/VISITDY
+    title: Planned Study Day of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TV/variables/VISITDY
+    title: Version-agnostic anchor resource for SDTM variable TV.VISITDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TV/variables/VISITDY
+    title: Planned Study Day of Visit
+    type: SDTM Dataset Variable
+definition: The planned study day of a clinical encounter relative to the sponsor-defined
+  reference start date.
+label: Planned Study Day of Visit
+name: VISITDY
+notes: Due to its sequential nature can be used for sorting.
+ordinal: '5'
+role: Timing
+simpleDatatype: Num
+variableCcode: C171011
+test_get_model_variables_filter: 0.000 - 79/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDORDER
+    title: Sequence of Planned Assessment Schedule
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDORDER
+    title: Version-agnostic anchor resource for SDTM variable TD.TDORDER
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDORDER
+    title: Sequence of Planned Assessment Schedule
+    type: SDTM Dataset Variable
+label: Sequence of Planned Assessment Schedule
+name: TDORDER
+notes: A number given to ensure ordinal sequencing of the planned assessment schedules
+  within a trial.
+ordinal: '3'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 80/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDANCVAR
+    title: Anchor Variable Name
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDANCVAR
+    title: Version-agnostic anchor resource for SDTM variable TD.TDANCVAR
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDANCVAR
+    title: Anchor Variable Name
+    type: SDTM Dataset Variable
+label: Anchor Variable Name
+name: TDANCVAR
+notes: 'A reference to the date variable name that provides the start point from which
+  the planned disease assessment schedule is measured. This must be referenced from
+  the ADaM subject-level (ADSL) dataset (e.g., ANCH1DT). \n Note: TDANCVAR is to contain
+  the name of a reference date variable name.'
+ordinal: '4'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 81/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDSTOFF
+    title: Offset from the Anchor
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDSTOFF
+    title: Version-agnostic anchor resource for SDTM variable TD.TDSTOFF
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDSTOFF
+    title: Offset from the Anchor
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Offset from the Anchor
+name: TDSTOFF
+notes: A fixed offset from the date provided by the variable referenced in TDANCVAR.
+  This is used when the timing of planned cycles does not start on the exact day referenced
+  in the variable indicated in TDANCVAR. The value of this variable will be a non-negative
+  duration.
+ordinal: '5'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 82/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDTGTPAI
+    title: Planned Assessment Interval
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDTGTPAI
+    title: Version-agnostic anchor resource for SDTM variable TD.TDTGTPAI
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDTGTPAI
+    title: Planned Assessment Interval
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Planned Assessment Interval
+name: TDTGTPAI
+notes: The planned interval between disease assessments.
+ordinal: '6'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 83/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDMINPAI
+    title: Planned Assessment Interval Minimum
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDMINPAI
+    title: Version-agnostic anchor resource for SDTM variable TD.TDMINPAI
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDMINPAI
+    title: Planned Assessment Interval Minimum
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Planned Assessment Interval Minimum
+name: TDMINPAI
+notes: The lower limit of the allowed range for the planned interval between disease
+  assessments.
+ordinal: '7'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 84/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDMAXPAI
+    title: Planned Assessment Interval Maximum
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDMAXPAI
+    title: Version-agnostic anchor resource for SDTM variable TD.TDMAXPAI
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDMAXPAI
+    title: Planned Assessment Interval Maximum
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Planned Assessment Interval Maximum
+name: TDMAXPAI
+notes: The upper limit of the allowed range for the planned interval between disease
+  assessments.
+ordinal: '8'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 85/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/DM
+    title: Demographics
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/DM/variables/DMDTC
+    title: Date/Time of Collection
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/DM/variables/DMDTC
+    title: Version-agnostic anchor resource for SDTM variable DM.DMDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/DM/variables/DMDTC
+    title: Date/Time of Collection
+    type: SDTM Dataset Variable
+definition: The date or date and time of demographic data collection, represented
+  in a standardized character format.
+describedValueDomain: ISO 8601 datetime or interval
+label: Date/Time of Collection
+name: DMDTC
+ordinal: '37'
+role: Timing
+simpleDatatype: Char
+variableCcode: C83243
+test_get_model_variables_filter: 0.000 - 86/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/DM
+    title: Demographics
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/DM/variables/DMDY
+    title: Study Day of Collection
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/DM/variables/DMDY
+    title: Version-agnostic anchor resource for SDTM variable DM.DMDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/DM/variables/DMDY
+    title: Study Day of Collection
+    type: SDTM Dataset Variable
+definition: The actual study day of demographic data collection derived relative to
+  the sponsor-defined reference start date.
+label: Study Day of Collection
+name: DMDY
+notes: The sponsor-defined reference start date is RFSTDTC.
+ordinal: '38'
+role: Timing
+simpleDatatype: Num
+variableCcode: C83244
+test_get_model_variables_filter: 0.000 - 87/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/CO
+    title: Comments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/CO/variables/CODTC
+    title: Date/Time of Comment
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/CO/variables/CODTC
+    title: Version-agnostic anchor resource for SDTM variable CO.CODTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/CO/variables/CODTC
+    title: Date/Time of Comment
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: Date/Time of Comment
+name: CODTC
+notes: Date or date and time of comment on dedicated comment form, if collected. Should
+  be null if this is a child record of another domain or if comment date was not collected.
+ordinal: '14'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 88/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/CO
+    title: Comments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/CO/variables/CODY
+    title: Study Day of Comment
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/CO/variables/CODY
+    title: Version-agnostic anchor resource for SDTM variable CO.CODY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/CO/variables/CODY
+    title: Study Day of Comment
+    type: SDTM Dataset Variable
+label: Study Day of Comment
+name: CODY
+notes: Actual study day of the comment, in integer days. The algorithm for calculations
+  must be relative to the sponsor-defined RFSTDTC variable in the Demographics (DM)
+  domain.
+ordinal: '15'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 89/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SE/variables/TAETORD
+    title: Planned Order of Element within Arm
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/TAETORD
+    title: Version-agnostic anchor resource for SDTM variable SE.TAETORD
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/TAETORD
+    title: Planned Order of Element within Arm
+    type: SDTM Dataset Variable
+definition: An assigned numeric identifier that gives the planned order of the element
+  within the trial arm of the study.
+label: Planned Order of Element within Arm
+name: TAETORD
+notes: Value for the element within the subject's assigned arm.
+ordinal: '7'
+role: Timing
+simpleDatatype: Num
+variableCcode: C83438
+test_get_model_variables_filter: 0.000 - 90/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SE/variables/EPOCH
+    title: Epoch
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/EPOCH
+    title: Version-agnostic anchor resource for SDTM variable SE.EPOCH
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/EPOCH
+    title: Epoch
+    type: SDTM Dataset Variable
+definition: A time period defined in the protocol with a study-specific purpose.
+label: Epoch
+name: EPOCH
+notes: Value for the element within the subject's assigned arm.
+ordinal: '8'
+role: Timing
+simpleDatatype: Char
+variableCcode: C71738
+test_get_model_variables_filter: 0.000 - 91/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SE/variables/SESTDTC
+    title: Start Date/Time of Element
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/SESTDTC
+    title: Version-agnostic anchor resource for SDTM variable SE.SESTDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/SESTDTC
+    title: Start Date/Time of Element
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: Start Date/Time of Element
+name: SESTDTC
+notes: Start date or start date and time for an element for each subject.
+ordinal: '9'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 92/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SE/variables/SEENDTC
+    title: End Date/Time of Element
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/SEENDTC
+    title: Version-agnostic anchor resource for SDTM variable SE.SEENDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/SEENDTC
+    title: End Date/Time of Element
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: End Date/Time of Element
+name: SEENDTC
+notes: End date/time of an element for each subject.
+ordinal: '10'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 93/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/SESTDY
+    title: Version-agnostic anchor resource for SDTM variable SE.SESTDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/SESTDY
+    title: Study Day of Start of Element
+    type: SDTM Dataset Variable
+label: Study Day of Start of Element
+name: SESTDY
+notes: Study day of start of element relative to the sponsor-defined RFSTDTC.
+ordinal: '11'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 94/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SE
+    title: Subject Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SE/variables/SEENDY
+    title: Version-agnostic anchor resource for SDTM variable SE.SEENDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SE/variables/SEENDY
+    title: Study Day of End of Element
+    type: SDTM Dataset Variable
+label: Study Day of End of Element
+name: SEENDY
+notes: Study day of end of element relative to the sponsor-defined RFSTDTC. \n
+ordinal: '12'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 95/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SJ
+    title: Subject Repro Stages
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SJ/variables/SJSTDTC
+    title: Start Date/Time of Repro Stage
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SJ/variables/SJSTDTC
+    title: Version-agnostic anchor resource for SDTM variable SJ.SJSTDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SJ/variables/SJSTDTC
+    title: Start Date/Time of Repro Stage
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: Start Date/Time of Repro Stage
+name: SJSTDTC
+notes: Start date or start date and time for a Repro Stage for each subject.
+ordinal: '7'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 96/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SJ
+    title: Subject Repro Stages
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SJ/variables/SJENDTC
+    title: End Date/Time of Repro Stage
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SJ/variables/SJENDTC
+    title: Version-agnostic anchor resource for SDTM variable SJ.SJENDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SJ/variables/SJENDTC
+    title: End Date/Time of Repro Stage
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: End Date/Time of Repro Stage
+name: SJENDTC
+notes: End date/time for a Repro Stage for each subject.
+ordinal: '8'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 97/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SJ
+    title: Subject Repro Stages
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SJ/variables/RPHASE
+    title: Repro Phase
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SJ/variables/RPHASE
+    title: Version-agnostic anchor resource for SDTM variable SJ.RPHASE
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SJ/variables/RPHASE
+    title: Repro Phase
+    type: SDTM Dataset Variable
+label: Repro Phase
+name: RPHASE
+notes: Name of the reproductive phase with which this Repro Stage of the Repro Path
+  is associated.
+ordinal: '9'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 98/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SV
+    title: Subject Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SV/variables/VISITDY
+    title: Planned Study Day of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SV/variables/VISITDY
+    title: Version-agnostic anchor resource for SDTM variable SV.VISITDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SV/variables/VISITDY
+    title: Planned Study Day of Visit
+    type: SDTM Dataset Variable
+definition: The planned study day of a clinical encounter relative to the sponsor-defined
+  reference start date.
+label: Planned Study Day of Visit
+name: VISITDY
+notes: The reference start date is RFSTDTC in Demographics.
+ordinal: '11'
+role: Timing
+simpleDatatype: Num
+variableCcode: C171011
+test_get_model_variables_filter: 0.000 - 99/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SV
+    title: Subject Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SV/variables/SVSTDTC
+    title: Start Date/Time of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SV/variables/SVSTDTC
+    title: Version-agnostic anchor resource for SDTM variable SV.SVSTDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SV/variables/SVSTDTC
+    title: Start Date/Time of Visit
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: Start Date/Time of Visit
+name: SVSTDTC
+notes: Start date or start date and time for a subject's visit.
+ordinal: '12'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 100/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SV
+    title: Subject Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SV/variables/SVENDTC
+    title: End Date/Time of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SV/variables/SVENDTC
+    title: Version-agnostic anchor resource for SDTM variable SV.SVENDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SV/variables/SVENDTC
+    title: End Date/Time of Visit
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: End Date/Time of Visit
+name: SVENDTC
+notes: End date/time of a subject's visit.
+ordinal: '13'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 101/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SV
+    title: Subject Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SV/variables/SVSTDY
+    title: Study Day of Start of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SV/variables/SVSTDY
+    title: Version-agnostic anchor resource for SDTM variable SV.SVSTDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SV/variables/SVSTDY
+    title: Study Day of Start of Visit
+    type: SDTM Dataset Variable
+label: Study Day of Start of Visit
+name: SVSTDY
+notes: Study day of start of visit relative to the sponsor-defined RFSTDTC.
+ordinal: '14'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 102/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SV
+    title: Subject Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SV/variables/SVENDY
+    title: Study Day of End of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SV/variables/SVENDY
+    title: Version-agnostic anchor resource for SDTM variable SV.SVENDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SV/variables/SVENDY
+    title: Study Day of End of Visit
+    type: SDTM Dataset Variable
+label: Study Day of End of Visit
+name: SVENDY
+notes: Study day of end of visit relative to the sponsor-defined RFSTDTC.
+ordinal: '15'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 103/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SM
+    title: Subject Disease Milestones
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SM/variables/SMSTDTC
+    title: Start Date/Time of Milestone
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SM/variables/SMSTDTC
+    title: Version-agnostic anchor resource for SDTM variable SM.SMSTDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SM/variables/SMSTDTC
+    title: Start Date/Time of Milestone
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: Start Date/Time of Milestone
+name: SMSTDTC
+notes: Start date or start date and time of milestone instance (if milestone is an
+  intervention or event), or date of milestone if the milestone is a finding.
+ordinal: '7'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 104/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SM
+    title: Subject Disease Milestones
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SM/variables/SMENDTC
+    title: End Date/Time of Milestone
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SM/variables/SMENDTC
+    title: Version-agnostic anchor resource for SDTM variable SM.SMENDTC
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SM/variables/SMENDTC
+    title: End Date/Time of Milestone
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 datetime or interval
+label: End Date/Time of Milestone
+name: SMENDTC
+notes: End date/time of disease milestone Instance.
+ordinal: '8'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 105/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SM
+    title: Subject Disease Milestones
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SM/variables/SMSTDY
+    title: Study Day of Start of Milestone
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SM/variables/SMSTDY
+    title: Version-agnostic anchor resource for SDTM variable SM.SMSTDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SM/variables/SMSTDY
+    title: Study Day of Start of Milestone
+    type: SDTM Dataset Variable
+label: Study Day of Start of Milestone
+name: SMSTDY
+notes: Study day of start of disease milestone instance, relative to the sponsor-defined
+  RFSTDTC.
+ordinal: '9'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 106/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/SM
+    title: Subject Disease Milestones
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/SM/variables/SMENDY
+    title: Study Day of End of Milestone
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/SM/variables/SMENDY
+    title: Version-agnostic anchor resource for SDTM variable SM.SMENDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/SM/variables/SMENDY
+    title: Study Day of End of Milestone
+    type: SDTM Dataset Variable
+label: Study Day of End of Milestone
+name: SMENDY
+notes: Study day of end of disease milestone instance, relative to the sponsor-defined
+  RFSTDTC.
+ordinal: '10'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 107/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TE
+    title: Trial Elements
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TE/variables/TEDUR
+    title: Planned Duration of Element
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TE/variables/TEDUR
+    title: Version-agnostic anchor resource for SDTM variable TE.TEDUR
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TE/variables/TEDUR
+    title: Planned Duration of Element
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Planned Duration of Element
+name: TEDUR
+notes: Used when the rule for ending the element is applied after a fixed duration.
+ordinal: '7'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 108/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TA
+    title: Trial Arms
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TA/variables/TAETORD
+    title: Planned Order of Element within Arm
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TA/variables/TAETORD
+    title: Version-agnostic anchor resource for SDTM variable TA.TAETORD
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TA/variables/TAETORD
+    title: Planned Order of Element within Arm
+    type: SDTM Dataset Variable
+definition: An assigned numeric identifier that gives the planned order of the element
+  within the trial arm of the study.
+label: Planned Order of Element within Arm
+name: TAETORD
+ordinal: '5'
+role: Timing
+simpleDatatype: Num
+variableCcode: C83438
+test_get_model_variables_filter: 0.000 - 109/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TA
+    title: Trial Arms
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TA/variables/EPOCH
+    title: Epoch
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TA/variables/EPOCH
+    title: Version-agnostic anchor resource for SDTM variable TA.EPOCH
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TA/variables/EPOCH
+    title: Epoch
+    type: SDTM Dataset Variable
+definition: A time period defined in the protocol with a study-specific purpose.
+label: Epoch
+name: EPOCH
+notes: The epoch associated with the value in ELEMENT and the value in ARMCD.
+ordinal: '10'
+role: Timing
+simpleDatatype: Char
+variableCcode: C71738
+test_get_model_variables_filter: 0.000 - 110/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TT
+    title: Trial Repro Stages
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TT/variables/TTDUR
+    title: Planned Duration of Repro Stage
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TT/variables/TTDUR
+    title: Version-agnostic anchor resource for SDTM variable TT.TTDUR
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TT/variables/TTDUR
+    title: Planned Duration of Repro Stage
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Planned Duration of Repro Stage
+name: TTDUR
+notes: Used when the rule for ending the repro stage is applied after a fixed duration.
+ordinal: '7'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 111/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TP
+    title: Trial Repro Paths
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TP/variables/TPSTGORD
+    title: Order of Repro Stage within Repro Path
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TP/variables/TPSTGORD
+    title: Version-agnostic anchor resource for SDTM variable TP.TPSTGORD
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TP/variables/TPSTGORD
+    title: Order of Repro Stage within Repro Path
+    type: SDTM Dataset Variable
+label: Order of Repro Stage within Repro Path
+name: TPSTGORD
+notes: Number that gives the planned order of the repro stage within the repro path.
+ordinal: '5'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 112/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TP
+    title: Trial Repro Paths
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TP/variables/RPHASE
+    title: Repro Phase
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TP/variables/RPHASE
+    title: Version-agnostic anchor resource for SDTM variable TP.RPHASE
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TP/variables/RPHASE
+    title: Repro Phase
+    type: SDTM Dataset Variable
+label: Repro Phase
+name: RPHASE
+notes: Name of the reproductive phase with which this repro stage of the repro path
+  is associated.
+ordinal: '9'
+role: Timing
+simpleDatatype: Char
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 113/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TP
+    title: Trial Repro Paths
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TP/variables/RPRFDY
+    title: Repro Phase Start Reference Day
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TP/variables/RPRFDY
+    title: Version-agnostic anchor resource for SDTM variable TP.RPRFDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TP/variables/RPRFDY
+    title: Repro Phase Start Reference Day
+    type: SDTM Dataset Variable
+label: Repro Phase Start Reference Day
+name: RPRFDY
+notes: Sponsor protocol-defined first day of repro phase. Should be zero or 1.
+ordinal: '10'
+role: Timing
+simpleDatatype: Num
+usageRestrictions: Not in human clinical trials
+test_get_model_variables_filter: 0.000 - 114/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TV
+    title: Trial Visits
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TV/variables/VISITDY
+    title: Planned Study Day of Visit
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TV/variables/VISITDY
+    title: Version-agnostic anchor resource for SDTM variable TV.VISITDY
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TV/variables/VISITDY
+    title: Planned Study Day of Visit
+    type: SDTM Dataset Variable
+definition: The planned study day of a clinical encounter relative to the sponsor-defined
+  reference start date.
+label: Planned Study Day of Visit
+name: VISITDY
+notes: Due to its sequential nature can be used for sorting.
+ordinal: '5'
+role: Timing
+simpleDatatype: Num
+variableCcode: C171011
+test_get_model_variables_filter: 0.000 - 115/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDORDER
+    title: Sequence of Planned Assessment Schedule
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDORDER
+    title: Version-agnostic anchor resource for SDTM variable TD.TDORDER
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDORDER
+    title: Sequence of Planned Assessment Schedule
+    type: SDTM Dataset Variable
+label: Sequence of Planned Assessment Schedule
+name: TDORDER
+notes: A number given to ensure ordinal sequencing of the planned assessment schedules
+  within a trial.
+ordinal: '3'
+role: Timing
+simpleDatatype: Num
+test_get_model_variables_filter: 0.000 - 116/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDANCVAR
+    title: Anchor Variable Name
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDANCVAR
+    title: Version-agnostic anchor resource for SDTM variable TD.TDANCVAR
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDANCVAR
+    title: Anchor Variable Name
+    type: SDTM Dataset Variable
+label: Anchor Variable Name
+name: TDANCVAR
+notes: 'A reference to the date variable name that provides the start point from which
+  the planned disease assessment schedule is measured. This must be referenced from
+  the ADaM subject-level (ADSL) dataset (e.g., ANCH1DT). \n Note: TDANCVAR is to contain
+  the name of a reference date variable name.'
+ordinal: '4'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 117/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDSTOFF
+    title: Offset from the Anchor
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDSTOFF
+    title: Version-agnostic anchor resource for SDTM variable TD.TDSTOFF
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDSTOFF
+    title: Offset from the Anchor
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Offset from the Anchor
+name: TDSTOFF
+notes: A fixed offset from the date provided by the variable referenced in TDANCVAR.
+  This is used when the timing of planned cycles does not start on the exact day referenced
+  in the variable indicated in TDANCVAR. The value of this variable will be a non-negative
+  duration.
+ordinal: '5'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 118/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDTGTPAI
+    title: Planned Assessment Interval
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDTGTPAI
+    title: Version-agnostic anchor resource for SDTM variable TD.TDTGTPAI
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDTGTPAI
+    title: Planned Assessment Interval
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Planned Assessment Interval
+name: TDTGTPAI
+notes: The planned interval between disease assessments.
+ordinal: '6'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 119/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDMINPAI
+    title: Planned Assessment Interval Minimum
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDMINPAI
+    title: Version-agnostic anchor resource for SDTM variable TD.TDMINPAI
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDMINPAI
+    title: Planned Assessment Interval Minimum
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Planned Assessment Interval Minimum
+name: TDMINPAI
+notes: The lower limit of the allowed range for the planned interval between disease
+  assessments.
+ordinal: '7'
+role: Timing
+simpleDatatype: Char
+test_get_model_variables_filter: 0.000 - 120/120:
+_links:
+  parentDataset:
+    href: /mdr/sdtm/2-0/datasets/TD
+    title: Trial Disease Assessments
+    type: SDTM Dataset
+  parentProduct:
+    href: /mdr/sdtm/2-0
+    title: Study Data Tabulation Model Version 2.0
+    type: Foundational Model
+  priorVersion:
+    href: /mdr/sdtm/1-8/datasets/TD/variables/TDMAXPAI
+    title: Planned Assessment Interval Maximum
+    type: SDTM Dataset Variable
+  rootItem:
+    href: /mdr/root/sdtm/datasets/TD/variables/TDMAXPAI
+    title: Version-agnostic anchor resource for SDTM variable TD.TDMAXPAI
+    type: Root Data Element
+  self:
+    href: /mdr/sdtm/2-0/datasets/TD/variables/TDMAXPAI
+    title: Planned Assessment Interval Maximum
+    type: SDTM Dataset Variable
+describedValueDomain: ISO 8601 duration
+label: Planned Assessment Interval Maximum
+name: TDMAXPAI
+notes: The upper limit of the allowed range for the planned interval between disease
+  assessments.
+ordinal: '8'
+role: Timing
+simpleDatatype: Char
