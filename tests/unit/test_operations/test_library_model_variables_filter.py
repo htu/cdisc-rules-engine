@@ -109,16 +109,18 @@ def test_get_model_variables_filter(
     Mocks cache call to return metadata.
     """
 
-    def find_objects_with_role(obj, role):
+    def find_objects_with_role(obj, domain:str=None, role:str=None):
         results = []
         if isinstance(obj, dict):
-            if obj.get('role') == role:
+            dom = obj.get("_links",{}).get("self",{}).get("href")
+            dm1 = f"/{domain}/"
+            if obj.get('role') == role and dm1 in dom:
                 results.append(obj)
             for value in obj.values():
-                results += find_objects_with_role(value, role)
+                results += find_objects_with_role(value, domain, role)
         elif isinstance(obj, list):
             for item in obj:
-                results += find_objects_with_role(item, role)
+                results += find_objects_with_role(item, domain, role)
         return results
 
     # Open the JSON file
@@ -128,11 +130,11 @@ def test_get_model_variables_filter(
     with open(ifn1) as f:
         # Load the JSON data into a Python object
         dat1 = json.load(f)
-    timing1_objs = find_objects_with_role(dat1, 'Timing')
+    timing1_objs = find_objects_with_role(dat1,'AE', 'Timing')
     with open(ifn2) as f:
         # Load the JSON data into a Python object
         dat2 = json.load(f)
-    timing2_objs = find_objects_with_role(dat2, 'Timing')
+    timing2_objs = find_objects_with_role(dat2,'AE', 'Timing')
 
     # Access the data in the object
     # print(data.keys())
@@ -167,12 +169,9 @@ def test_get_model_variables_filter(
 
     if timing1_objs is not None: 
         echo_msg(v_prg,0.011, timing1_objs, 1)
-        return 
     if timing2_objs is not None:
         echo_msg(v_prg, 0.012, timing2_objs, 1)
         return
-
-
 
     echo_msg(v_prg,0.01, operation_params, 10)
 
