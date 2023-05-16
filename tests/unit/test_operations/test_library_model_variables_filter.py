@@ -109,18 +109,21 @@ def test_get_model_variables_filter(
     Mocks cache call to return metadata.
     """
 
-    def find_objects_with_role(obj, domain:str=None, role:str=None):
+    def find_objects(obj, domain:str=None, key:str="role", val:str=None):
+        v_prg="find_objects"
         results = []
         if isinstance(obj, dict):
             dom = obj.get("_links",{}).get("self",{}).get("href")
-            dm1 = f"/{domain}/"
-            if obj.get('role') == role and dm1 in dom:
+            dm1 = f"/datasets/{domain}/"
+            v1 = obj.get(key)
+            echo_msg(v_prg, 1.111, f"{v1}={val},{dm1}={dom}?")
+            if v1 == val and dm1 in dom:
                 results.append(obj)
             for value in obj.values():
-                results += find_objects_with_role(value, domain, role)
+                results += find_objects(value, domain, key, val)
         elif isinstance(obj, list):
             for item in obj:
-                results += find_objects_with_role(item, domain, role)
+                results += find_objects(item, domain, key, val)
         return results
 
     # Open the JSON file
@@ -130,11 +133,11 @@ def test_get_model_variables_filter(
     with open(ifn1) as f:
         # Load the JSON data into a Python object
         dat1 = json.load(f)
-    timing1_objs = find_objects_with_role(dat1,'AE', 'Timing')
+    timing1_objs = find_objects(dat1,'AE', 'role', 'Timing')
     with open(ifn2) as f:
         # Load the JSON data into a Python object
         dat2 = json.load(f)
-    timing2_objs = find_objects_with_role(dat2,'AE', 'Timing')
+    timing2_objs = find_objects(dat2,'AE', 'role', 'Timing')
 
     # Access the data in the object
     # print(data.keys())

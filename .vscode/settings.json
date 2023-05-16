@@ -1,0 +1,21 @@
+{
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "cSpell.words": [
+        "cdisc",
+        "codelist",
+        "dataframe",
+        "displayer",
+        "executability",
+        "meddra",
+        "sdtm",
+        "SDTMIG",
+        "STUDYID",
+        "USUBJID",
+        "whodrug"
+    ]
+}

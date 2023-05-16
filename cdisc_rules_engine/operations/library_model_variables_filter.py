@@ -176,28 +176,10 @@ class LibraryModelVariablesFilter(BaseOperation):
             model_details.get("datasets", []), lambda item: item["name"] == domain_name
         )
         v_prg = f"get_model_domain_metadata"
-        v_stp = 1.1
         echo_msg(v_prg, 3.1, "Variable Metadata\n-----------------------------",1)
         echo_msg(v_prg, 3.2, domain_details, 1)
 
         return domain_details
-
-    def echo2file(self, v_prg, v_stp, title: str, obj: Any, output_file: str):
-        m1 = f"{title}({type(obj)})"
-        lb_devider = "-" * (len(m1))
-        with open(output_file, "a") as f:
-            f.write(f"{m1}\n{lb_devider}\n")
-            echo_msg(v_prg, v_stp, obj, 1 )
-            f.write("\n\n")
-
-
-    def echo_to_file(self, output_file: str, *args: Any) -> None:
-        # with open(output_file, "w") as f:
-        #      f.write("-" * 50 + "\n")
-        for i, args in enumerate(args):
-            label = args[0]
-            arg = args[1]
-            self.echo2file("Echo to File", i, label, arg, output_file)
 
     @staticmethod
     def _replace_variable_wildcards(variables_metadata, domain):

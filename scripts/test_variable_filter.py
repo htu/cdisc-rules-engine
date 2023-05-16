@@ -24,16 +24,22 @@ from cdisc_rules_engine.utilities.utils import (
     get_model_details_cache_key,
 )
 
-def find_objects_with_role(obj, role):
+
+def find_objects(obj, domain: str = None, key: str = "role", val: str = None):
+    v_prg = "find_objects"
     results = []
     if isinstance(obj, dict):
-        if obj.get('role') == role:
+        dom = obj.get("_links", {}).get("self", {}).get("href")
+        dm1 = f"/datasets/{domain}/"
+        v1 = obj.get(key)
+        echo_msg(v_prg, 1.111, f"{v1}={val},{dm1}={dom}?")
+        if v1 == val and dm1 in dom:
             results.append(obj)
         for value in obj.values():
-            results += find_objects_with_role(value, role)
+            results += find_objects(value, domain, key, val)
     elif isinstance(obj, list):
         for item in obj:
-            results += find_objects_with_role(item, role)
+            results += find_objects(item, domain, key, val)
     return results
 
 
@@ -51,11 +57,11 @@ def test_get_model_variables_filter(
     with open(ifn1) as f:
         # Load the JSON data into a Python object
         dat1 = json.load(f)
-    timing1_objs = find_objects_with_role(dat1, 'Timing')
+    timing1_objs = find_objects(dat1,'AE','role', 'Timing')
     with open(ifn2) as f:
         # Load the JSON data into a Python object
         dat2 = json.load(f)
-    timing2_objs = find_objects_with_role(dat2, 'Timing')
+    timing2_objs = find_objects(dat2, 'AE', 'role', 'Timing')
 
     # Access the data in the object
     # print(data.keys())
